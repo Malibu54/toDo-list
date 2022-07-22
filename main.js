@@ -37,7 +37,7 @@ if (promedio >= 6.5) {
 const alumno1 = new Alumno("Homero", 39, "Av. Siempreviva 742");
 alumno1.rendir();*/
 
-class Parcial {
+/*class Parcial {
     constructor(nombre, curso) {
         this.nombre = nombre.toUpperCase();
         this.nota = parseFloat(nota);
@@ -54,11 +54,11 @@ const Parcial1 = new alumno1("Homero", "8");
 const Parcial2 = new alumno2("Federico", "9");
 alumno1.aprueba();
 alumno2.aprueba();
-alumno1.aprobar();
+alumno1.aprobar();*/
 
 /***Quinto Desafio ***/
 
-const alumnos = ['Oriana', 'Soledad', 'Marilyn', 'Eduardo', 'Ezequiel', 'Veronica']
+/*const alumnos = ['Oriana', 'Soledad', 'Marilyn', 'Eduardo', 'Ezequiel', 'Veronica']
 
 const eliminar = (alumnos) => {
 
@@ -69,7 +69,7 @@ const eliminar = (alumnos) => {
         alumnos.splice(index, 3)
     }
 }
-eliminar('Marilyn')
+eliminar('Marilyn')*/
 
 
 /***Sexto Desafio***/
