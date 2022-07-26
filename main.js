@@ -82,3 +82,15 @@ function esPar(elemento) {
 const arrayDeBooleans = notasDeExamen.map(esPar);
 
 console.log(arrayDeBooleans)
+
+//CAMBIAR EL TITULO DE LA PAGINA ETIQUETA H1 ID=TITULO 
+let titulo = document.getElementById("titulo")
+titulo.innerText = "Nota del alumno:"
+console.log(titulo.innerText)
+
+//agregar botton enviar
+
+const button = document.createElement('button');
+button.type = 'button';
+button.innerText = 'Enviar';
+document.body.appendChild(button);
