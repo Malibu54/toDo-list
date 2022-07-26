@@ -4,10 +4,11 @@ El proyecto trata sobre un controlador de calificaciones, la idea al final del p
 
 
 
-Paso #1 : Ingresar el nombre del alumno
-Paso #2 : Ingresar el apellido del alumno
-Paso #3 : Ingresar nota del primer parcial
-Paso #4 : Ingresar nota del segundo parcial
+Paso #1 : Ingresar el nombre del alumno.  
+Paso #2 : Ingresar el apellido del alumno.  
+Paso #3 : Ingresar nota del primer parcial.  
+Paso #4 : Ingresar nota del segundo parcial.  
+
 
 El codigo calcula el promedio según las notas (valores numéricos) se le ingresen y lo establecido por condición desde el código.
 
