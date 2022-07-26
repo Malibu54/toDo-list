@@ -15,7 +15,7 @@ Mientras se realizan los pasos enunciados veremos un encabezado en pantalla con 
 
 El promedio de (nombre ingresado) + (apellido ingresado) es + (promedio calculado) + (aprobado/desaprobado)
 
-Y debajo un boton de enviar (por el momento, sin funcionalidad)
+Y debajo un bottom de enviar (por el momento, sin funcionalidad)
 
 Cuándo están aprobados?
 
