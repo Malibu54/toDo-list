@@ -17,8 +17,8 @@ Y debajo un boton de enviar (por el momento, sin funcionalidad)
 
 Cuándo están aprobados?
 
-Si promedio >= 6.5
+-Si promedio >= 6.5
 
 Cuándo están desaprobados?
 
-Si promedio <= 6.5
+-Si promedio <= 6.5
