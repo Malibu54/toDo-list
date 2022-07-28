@@ -12,11 +12,10 @@ Paso #4 : Ingresar nota del segundo parcial.
 
 El codigo calcula el promedio según las notas (valores numéricos) se le ingresen y lo establecido por condición desde el código.
 
-Mientras se realizan los pasos enunciados veremos un encabezado en pantalla con el texto "Soy un proyecto de coder", cuando terminemos de ingresar todos los datos se visualizará por pantalla un nuevo encabezado con el texto " por pantalla la nota del alumno y "Nota del alumno:" y como cuerpo del mensaje lo siguiente:
+
+Cuando terminemos de ingresar todos los datos se visualizará por pantalla un encabezado con el texto "Nota del alumno:" y como cuerpo del mensaje lo siguiente:
 
 El promedio de (nombre ingresado) + (apellido ingresado) es + (promedio calculado) + (aprobado/desaprobado)
-
-Y debajo un bottom de enviar (por el momento, sin funcionalidad)
 
 Cuándo están aprobados?
 
@@ -25,3 +24,15 @@ Cuándo están aprobados?
 Cuándo están desaprobados?
 
 -Si promedio <= 6.5
+
+
+Debajo un campo input donde se simula el ingreso de un mail para notificar al alumno de una beca, al lado un bottom de enviar al alumno para notificar y en el medio de la pantalla una card con el texto "Hurry up" que al pasar el cursor por encima al dorso cambia su contenido por un mensaje con el titlo " Felicidades" y como texto "El alumno tiene una beca disponible, para notificalo hace click sobre el botón "Enviar al alumno" y luego finalizar aquí debajo."
+Dentro de este ultimo paso de la tarjeta al presionar finalizar el localhost nos dirá "Ha finalizado la prueba del proyecto".
+
+
+
+
+
+Deprecado:
+
+Mientras se realizan los pasos enunciados veremos un encabezado en pantalla con el texto "Soy un proyecto de coder"
