@@ -26,7 +26,8 @@ Cuándo están desaprobados?
 -Si promedio <= 6.5
 
 
-Debajo un campo input donde se simula el ingreso de un mail para notificar al alumno de una beca, al lado un bottom de enviar al alumno para notificar y en el medio de la pantalla una card con el texto "Hurry up" que al pasar el cursor por encima al dorso cambia su contenido por un mensaje con el titlo " Felicidades" y como texto "El alumno tiene una beca disponible, para notificalo hace click sobre el botón "Enviar al alumno" y luego finalizar aquí debajo."
+Debajo nos encontramos con un campo input donde se simula el ingreso de un mail para notificar al alumno de una beca, al lado un bottom de enviar al alumno para notificarlo que al presionarlo cambia el placeholder del mismo.
+En el medio de la pantalla hay una card con el texto "Hurry up" que al pasar el cursor por encima se da vuelta y al dorso cambia su contenido por un mensaje con el titlo " Felicidades" y como texto "El alumno tiene una beca disponible, para notificarlo haz click sobre el botón "Enviar al alumno" y luego finalizar aquí debajo."
 Dentro de este ultimo paso de la tarjeta al presionar finalizar el localhost nos dirá "Ha finalizado la prueba del proyecto".
 
 
