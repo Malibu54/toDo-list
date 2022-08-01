@@ -5,11 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
 </head>
+<main>
 
-<body>
-    <script src="main.js"></script>
-</body>
+    <body>
+        <h1 id="titulo">Soy un proyecto de coder</h1>
+        <hr>
+        <script src="main.js"></script>
+        <br><input type="email" id="theirEmail" placeholder="correo">
+
+        <button onclick="Enviar_al_alumno()">Enviar al alumno</button><br>
+
+
+        <div class="flip-container">
+            <div class="card">
+                <div class="frente">
+                    <h3>Hurry up!
+                        <h3/>
+                </div>
+                <div class="dorso">
+                    <h3>Felicidades</h3>
+                    <p>El alumno tiene una beca disponible, para notificarlo haz click sobre el botón "Enviar al alumno" y luego finalizar aquí debajo.</p>
+                    <input type="button" value="Finalizar" id="fnshdbtn" onclick="alert('Ha finalizado la prueba del proyecto');" />
+                </div>
+            </div>
+        </div>
+    </body>
+</main>
 
 </html>
