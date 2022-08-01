@@ -16,12 +16,6 @@ if (promedio >= 6.5) {
     document.write("El promedio de " + nombreIngresado + " " + apellidoIngresado + " " + 'es' + " " + promedio + " DESAPROBADO ");
 }
 
-const notasDeExamen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-function esPar(elemento) {
-    return elemento % 2 == 0
-}
-
 const arrayDeBooleans = notasDeExamen.map(esPar);
 console.log(arrayDeBooleans);
 
@@ -29,6 +23,6 @@ let titulo = document.getElementById("titulo");
 titulo.innerText = "Nota del alumno:";
 console.log(titulo.innerText);
 
-function Enviar_al_alumno() {
+function EnviarAlAlumno() {
     document.getElementById("theirEmail").placeholder = "montoto@js.com";
 }
