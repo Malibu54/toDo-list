@@ -1,4 +1,4 @@
-# Coderhouse
+# Control de notas y trabajos prácticos (toDo list)
 
 El proyecto trata sobre un controlador de calificaciones, la idea al final del proyecto es poder acumular todas las notas de un curso detallando nombre y apellido de cada alumno y su condición definida entre aprobado y desaprobado dada por el promedio y emitir un informe por pantalla del estado al final de la cursada de todos los alumnos.
 
@@ -26,6 +26,7 @@ Cuándo están desaprobados?
 -Si promedio <= 6.5
 
 ###NUEVO###
+
 Debajo, podremos ver un boton que nos llevará a una pequeña aplicacion de control de los trabajos practicos del alumno al día de la fecha.
 
 Cómo funciona?
