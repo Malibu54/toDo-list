@@ -26,6 +26,7 @@ Cuándo están desaprobados?
 -Si promedio <= 6.5
 
 ###NUEVO###
+
 Debajo, podremos ver un boton que nos llevará a una pequeña aplicacion de control de los trabajos practicos del alumno al día de la fecha.
 
 Cómo funciona?
