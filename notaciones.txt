@@ -129,3 +129,17 @@ card p {
     font-weight: bold;
     border-radius: 8px;
 }
+
+
+javascript
+/*const button = document.createElement('button');
+button.type = 'button';
+button.innerText = 'Control de tareas pendientes'
+href = "tareas.html";
+document.body.appendChild(button);*/
+
+document.getElementById("Button").addEventListener("click", gotoUrl);
+
+function gotoUrl() {
+    window.location.assign("https://www.google.com/");
+}

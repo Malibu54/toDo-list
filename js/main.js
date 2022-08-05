@@ -19,15 +19,3 @@ if (promedio >= 6.5) {
 let titulo = document.getElementById("titulo");
 titulo.innerText = "Nota del alumno";
 console.log(titulo.innerText);
-
-/*const button = document.createElement('button');
-button.type = 'button';
-button.innerText = 'Control de tareas pendientes'
-href = "tareas.html";
-document.body.appendChild(button);*/
-
-document.getElementById("Button").addEventListener("click", gotoUrl);
-
-function gotoUrl() {
-    window.location.assign("https://www.google.com/");
-}
