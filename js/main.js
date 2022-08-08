@@ -13,16 +13,16 @@ final = parseFloat(prompt("Final"));
 promedio = (parcial + final) / 2;
 if (promedio >= 6.5) {
     let thisText = document.getElementById("thisText")
-    console.log(thisText.innerText) // “Hola Mundo!”
-        // cambio el contenido del elemento
+    console.log(thisText.innerText)
+
     thisText.innerText = ("El promedio es " + promedio + " APROBADO ");
-    console.log(thisText.innerText) // “Hola Coder!”
+    console.log(thisText.innerText)
 } else {
     let thisText = document.getElementById("thisText")
-    console.log(thisText.innerText) // “Hola Mundo!”
-        // cambio el contenido del elemento
+    console.log(thisText.innerText)
+
     thisText.innerText = ("El  promedio es " + promedio + " DESAPROBADO ");
-    console.log(thisText.innerText) // “Hola Coder!”
+    console.log(thisText.innerText)
 }
 
 let titulo = document.getElementById("titulo");
