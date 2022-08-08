@@ -6,14 +6,23 @@ if ((nombreIngresado != "") && (apellidoIngresado != "")) {
     alert("Error: Ha fallado la autenticación");
 }
 
+
 let parcial, final, promedio;
 parcial = parseFloat(prompt("Parcial"));
 final = parseFloat(prompt("Final"));
 promedio = (parcial + final) / 2;
 if (promedio >= 6.5) {
-    document.write("El promedio de " + nombreIngresado + " " + apellidoIngresado + " " + 'es' + " " + promedio + " APROBADO ");
+    let thisText = document.getElementById("thisText")
+    console.log(thisText.innerText) // “Hola Mundo!”
+        // cambio el contenido del elemento
+    thisText.innerText = ("El promedio es " + promedio + " APROBADO ");
+    console.log(thisText.innerText) // “Hola Coder!”
 } else {
-    document.write("El promedio de " + nombreIngresado + " " + apellidoIngresado + " " + 'es' + " " + promedio + " DESAPROBADO ");
+    let thisText = document.getElementById("thisText")
+    console.log(thisText.innerText) // “Hola Mundo!”
+        // cambio el contenido del elemento
+    thisText.innerText = ("El  promedio es " + promedio + " DESAPROBADO ");
+    console.log(thisText.innerText) // “Hola Coder!”
 }
 
 let titulo = document.getElementById("titulo");

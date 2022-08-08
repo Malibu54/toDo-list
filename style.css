@@ -11,33 +11,21 @@ body {
     margin: 0;
     height: 100vh;
     background-color: var(--diabled);
+    padding-left: 10px;
 }
 
 #titulo {
     text-align: center;
 }
 
-#button {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
+.ctrltskbtn {
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-}
-
-#button:hover {
-    background-color: #3e8e41
-}
-
-#button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 35px;
+    border-radius: 5%;
+    font-size: 18px;
+    background-color: var(--secondary);
+    color: var(--light);
 }

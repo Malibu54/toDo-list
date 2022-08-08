@@ -111,7 +111,7 @@ input:focus {
 }
 
 .done {
-    background-color: var(--diabled);
+    background-color: var(--secondary);
     text-decoration: line-through;
-    color: var(--dark);
+    color: var(--light);
 }
