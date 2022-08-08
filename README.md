@@ -31,7 +31,7 @@ Debajo, podremos ver un botton que nos llevará a una pequeña aplicacion de con
 
 Cómo funciona?
 
-En el input 'Nuevo TP" escribimos el nombre del trabajo práctico y podemos agregarlo a la lista presionando enter o haciendo click en el boton "+" y se ira formando una lista. Adicionalmente, veremos el boton ordenar; este boton cumple la función de ordenar las tareas pendientes el listado en la parte superior dejando las finalizadas en la parte inferios. 
+En el input 'Nuevo TP" escribimos el nombre del trabajo práctico y podemos agregarlo a la lista presionando enter o haciendo click en el boton "+" y se ira formando una lista. Adicionalmente, veremos el boton ordenar; este boton cumple la función de ordenar las tareas pendientes el listado en la parte superior dejando las finalizadas en la parte inferior. 
 
 Cómo marco un tp como finalizado?
 
