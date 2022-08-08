@@ -27,10 +27,11 @@ Cuándo están desaprobados?
 
 ###NUEVO###
 
-Debajo, podremos ver un boton que nos llevará a una pequeña aplicacion de control de los trabajos practicos del alumno al día de la fecha.
+Debajo, podremos ver un botton que nos llevará a una pequeña aplicacion de control de los trabajos practicos del alumno al día de la fecha.
 
 Cómo funciona?
-En el input 'Nuevo TP" escribimos el nombre del trabajo práctico y podemos agregarlo a la lista presionando enter o haciendo click en el boton "+" y se ira formando una lista. Adicionalmente, veremos el boton ordenar; este boton cumple la función de ordenar las tareas pendientes el listado en la parte superior dejando las finalizadas en la parte inferios. 
+
+En el input 'Nuevo TP" escribimos el nombre del trabajo práctico y podemos agregarlo a la lista presionando enter o haciendo click en el boton "+" y se ira formando una lista. Adicionalmente, veremos el boton ordenar; este boton cumple la función de ordenar las tareas pendientes el listado en la parte superior dejando las finalizadas en la parte inferior. 
 
 Cómo marco un tp como finalizado?
 
