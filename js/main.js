@@ -28,8 +28,13 @@ let titulo = document.getElementById("titulo");
 titulo.innerText = "Nota del alumno";
 console.log(titulo.innerText);
 
+let alumnos = { id: 2, alumno: "Ramiro" };
+const enJSON = JSON.stringify(alumnos);
 
-area.value = localStorage.getItem('area');
-area.oninput = () => {
-    localStorage.setItem('area', area.value)
-};
+console.log(enJSON);
+console.log(typeof alumnos);
+console.log(typeof enJSON);
+localStorage.setItem("alumnos", enJSON);
+
+const alumnosEnTexto = JSON.parse(localStorage.getItem("alumnos"));
+console.log(alumnos.id);
