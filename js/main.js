@@ -14,16 +14,22 @@ if (promedio >= 6.5) {
     let thisText = document.getElementById("thisText")
     console.log(thisText.innerText)
 
-    thisText.innerText = ("El promedio es " + promedio + " APROBADO ");
+    thisText.innerText = ("El promedio de " + nombreIngresado + " " + apellidoIngresado + " es " + promedio + "," + " esta" + " APROBADO ");
     console.log(thisText.innerText)
 } else {
     let thisText = document.getElementById("thisText")
     console.log(thisText.innerText)
 
-    thisText.innerText = ("El  promedio es " + promedio + " DESAPROBADO ");
+    thisText.innerText = ("El promedio de " + nombreIngresado + " " + apellidoIngresado + " es " + promedio + "," + " esta" + " DESAPROBADO ");
     console.log(thisText.innerText)
 }
 
 let titulo = document.getElementById("titulo");
 titulo.innerText = "Nota del alumno";
 console.log(titulo.innerText);
+
+
+area.value = localStorage.getItem('area');
+area.oninput = () => {
+    localStorage.setItem('area', area.value)
+};
