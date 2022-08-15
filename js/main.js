@@ -6,6 +6,9 @@ if ((nombreIngresado != "") && (apellidoIngresado != "")) {
     alert("Error: Ha fallado la autenticación");
 }
 
+
+
+
 let parcial, final, promedio;
 parcial = parseFloat(prompt("Parcial"));
 final = parseFloat(prompt("Final"));

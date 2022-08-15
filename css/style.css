@@ -12,7 +12,7 @@ body {
     height: 100vh;
     background-color: var(--diabled);
     padding-left: 10px;
-    background-image: url('images/background.png');
+    background-image: url('css/images/background.png');
 }
 
 #titulo {
