@@ -12,6 +12,7 @@ body {
     height: 100vh;
     background-color: var(--diabled);
     padding-left: 10px;
+    background-image: url('Screen Shot 2022-08-12 at 11.42.59 PM.png');
 }
 
 #titulo {
