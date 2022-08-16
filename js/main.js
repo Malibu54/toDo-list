@@ -3,7 +3,7 @@ let apellidoIngresado = prompt("Ingresar apellido");
 if ((nombreIngresado != "") && (apellidoIngresado != "")) {
     alert("Nombre: " + nombreIngresado + "\nApellido: " + apellidoIngresado);
 } else {
-    alert("Error: Ha fallado la autenticación");
+    swal("Good job!", "You clicked the button!", "error");;
 }
 
 
@@ -58,7 +58,7 @@ Toastify({
 Toastify({
     text: "toDoList",
     duration: 9999999999,
-    destination: "modulo_tareas/tareas.html",
+    destination: "tareas.html",
     className: "info", // `top` or `bottom`
     position: "buttom",
     style: {
