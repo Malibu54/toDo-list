@@ -66,3 +66,14 @@ area.value = localStorage.getItem('area');
 area.oninput = () => {
     localStorage.setItem('area', area.value)
 };
+
+let alumnos = { id: 1, alumno: "Ramiro" };
+const enJSON = JSON.stringify(alumnos);
+
+console.log(enJSON);
+console.log(typeof alumnos);
+console.log(typeof enJSON);
+localStorage.setItem("alumnos", enJSON);
+
+const alumnosEnTexto = JSON.parse(localStorage.getItem("alumnos"));
+console.log(alumnos.id);
