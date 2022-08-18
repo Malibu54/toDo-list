@@ -25,10 +25,25 @@ const addNewTask = event => {
     task.textContent = value;
     tasksContainer.prepend(task);
     event.target.reset();
+    Swal.fire({
+        position: 'left-top',
+        icon: 'success',
+        title: 'Nuevo TP agregado',
+        showConfirmButton: false,
+        timer: 1500
+    })
 };
 
 const changeTaskState = event => {
     event.target.classList.toggle('done');
+    Swal.fire({
+        title: 'Que bueno que ya terminaste :3',
+        width: 600,
+        padding: '3em',
+        color: '#716add',
+        background: '#fff url(/images/trees.png)',
+
+    })
 };
 
 const order = () => {
@@ -42,6 +57,7 @@ const order = () => {
 
 const renderOrderedTasks = () => {
     order().forEach(el => tasksContainer.appendChild(el))
+
 }
 
 setDate();

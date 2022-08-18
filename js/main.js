@@ -3,11 +3,8 @@ let apellidoIngresado = prompt("Ingresar apellido");
 if ((nombreIngresado != "") && (apellidoIngresado != "")) {
     alert("Nombre: " + nombreIngresado + "\nApellido: " + apellidoIngresado);
 } else {
-    swal("Good job!", "You clicked the button!", "error");;
+    alert("Error: Ha fallado la autenticación");
 }
-
-
-
 
 let parcial, final, promedio;
 parcial = parseFloat(prompt("Parcial"));
@@ -46,9 +43,9 @@ Toastify({
     text: "No te olvides de ver mi toDoList!",
     newWindow: true,
     close: true,
-    gravity: "buttom", // `top` or `bottom`
-    position: "right", // `left`, `center` or `right`
-    stopOnFocus: true, // Prevents dismissing of toast on hover
+    gravity: "buttom",
+    position: "right",
+    stopOnFocus: true,
     style: {
         background: "linear-gradient(to right, #00b09b, #96c93d)",
     },
@@ -59,7 +56,7 @@ Toastify({
     text: "toDoList",
     duration: 9999999999,
     destination: "tareas.html",
-    className: "info", // `top` or `bottom`
+    className: "info",
     position: "buttom",
     style: {
         background: "linear-gradient(to right, #00b09b, #96c93d)",
