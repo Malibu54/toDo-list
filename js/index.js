@@ -53,12 +53,12 @@ const order = () => {
         el.classList.contains('done') ? done.push(el) : toDo.push(el)
     })
     return [...toDo, ...done];
-}
+};
 
 const renderOrderedTasks = () => {
     order().forEach(el => tasksContainer.appendChild(el))
 
-}
+};
 
 setDate();
 
@@ -70,9 +70,6 @@ area.oninput = () => {
 let alumnos = { id: 1, alumno: "Ramiro" };
 const enJSON = JSON.stringify(alumnos);
 
-console.log(enJSON);
-console.log(typeof alumnos);
-console.log(typeof enJSON);
 localStorage.setItem("alumnos", enJSON);
 
 const alumnosEnTexto = JSON.parse(localStorage.getItem("alumnos"));
@@ -80,13 +77,13 @@ console.log(alumnos.id);
 
 
 Swal.fire({
-    title: 'Submit your Github username',
+    title: 'Acordate que para pushear tus proyectos en Github y el tutor pueda corregirlos debes contar con un registro en la plataforma. Para ver si tu usuario esta registrado en Gh ingresa el nombre de usuario: si devuelve un avatar el usuario ya esta registrado y deberas elegir otro.',
     input: 'text',
     inputAttributes: {
         autocapitalize: 'off'
     },
     showCancelButton: true,
-    confirmButtonText: 'Look up',
+    confirmButtonText: 'Buscar',
     showLoaderOnConfirm: true,
     preConfirm: (login) => {
         return fetch(`//api.github.com/users/${login}`)
@@ -106,8 +103,8 @@ Swal.fire({
 }).then((result) => {
     if (result.isConfirmed) {
         Swal.fire({
-            title: `${result.value.login}'s avatar`,
+            title: `${result.value.login}'s user`,
             imageUrl: result.value.avatar_url
         })
     }
-})
+});
