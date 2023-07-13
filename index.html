@@ -8,7 +8,7 @@
     <title>Lista de tareas</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/scss" href="sweetalert2.min.css">
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" type="text/css" href="css/tareas_style.css">
     <script src="js/index.js" type="text/javascript" defer></script>
 
@@ -30,12 +30,12 @@
         <form onsubmit="addNewTask(event)">
             <input type="text" name="taskText" autocomplete="off" placeholder="Nuevo TP" class="roundBorder">
             <button type="submit" class="addTaskButton">+</button>
-            <button type="button" class="orderButton roundBorder" onclick="renderOrderedTasks()">Ordenar</button>
+            <button type="button" class="orderButton roundBorder" onclick="renderOrderedTasks()">Order</button>
         </form>
         <div id="tasksContainer"></div>
     </div>
-    <textarea id="area" placeholder="Anotacion adicional"></textarea><br>
-    <button class="ctrltskbtn" onclick="localStorage.removeItem('area');area.value=''">Limpiar area</button><br>
+    <textarea id="area" placeholder="Aditional text"></textarea><br>
+    <button class="ctrltskbtn" onclick="localStorage.removeItem('area');area.value=''">Empty area</button><br>
 </body>
 
 </html>
