@@ -2,7 +2,6 @@ Deploy 👉 https://todolistmalibu54.netlify.app
 
 # Control trabajos prácticos (toDo list)
 
-Deploy 👉 https://todolistmalibu54.netlify.app/
 
 El proyecto trata sobre un controlador de trabajos prácticos, la idea al final del proyecto es llevar un control de las tareas realizadas y pendientes.
 Adicionalmente, al ingresar a la aplicacion nos pediran nuestro usuario de github para generar el avatar del mismo, en caso de que salga error en la petición, esto es un indicio de que el usuario no existe y por ende esta disponible para registrar.
