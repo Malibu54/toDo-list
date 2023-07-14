@@ -59,13 +59,13 @@ const renderOrderedTasks = () => {
 };
 
 setDate();
-
+/*
 area.value = localStorage.getItem("area");
 area.oninput = () => {
   localStorage.setItem("area", area.value);
 };
 
-/*Swal.fire({
+Swal.fire({
   title: "Submit your Github username",
   input: "text",
   inputAttributes: {
