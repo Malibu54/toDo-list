@@ -9,10 +9,10 @@ const tasksContainer = document.getElementById("tasksContainer");
 
 const setDate = () => {
   const date = new Date();
-  dateNumber.textContent = date.toLocaleString("es", { day: "numeric" });
-  dateText.textContent = date.toLocaleString("es", { weekday: "long" });
-  dateMonth.textContent = date.toLocaleString("es", { month: "short" });
-  dateYear.textContent = date.toLocaleString("es", { year: "numeric" });
+  dateNumber.textContent = date.toLocaleString("en", { day: "numeric" });
+  dateText.textContent = date.toLocaleString("en", { weekday: "long" });
+  dateMonth.textContent = date.toLocaleString("en", { month: "short" });
+  dateYear.textContent = date.toLocaleString("en", { year: "numeric" });
 };
 
 const addNewTask = (event) => {
@@ -28,7 +28,7 @@ const addNewTask = (event) => {
   Swal.fire({
     position: "left-top",
     icon: "success",
-    title: "Nuevo TP agregado",
+    title: "New item added",
     showConfirmButton: false,
     timer: 1500,
   });
@@ -37,7 +37,7 @@ const addNewTask = (event) => {
 const changeTaskState = (event) => {
   event.target.classList.toggle("done");
   Swal.fire({
-    title: "Que bueno que ya terminaste :3",
+    title: "You're rock!",
     width: 600,
     padding: "3em",
     color: "#716add",
@@ -65,15 +65,7 @@ area.oninput = () => {
   localStorage.setItem("area", area.value);
 };
 
-let alumnos = { id: 1, alumno: "Ramiro" };
-const enJSON = JSON.stringify(alumnos);
-
-localStorage.setItem("alumnos", enJSON);
-
-const alumnosEnTexto = JSON.parse(localStorage.getItem("alumnos"));
-console.log(alumnos.id);
-
-Swal.fire({
+/*Swal.fire({
   title: "Submit your Github username",
   input: "text",
   inputAttributes: {
@@ -102,4 +94,4 @@ Swal.fire({
       imageUrl: result.value.avatar_url,
     });
   }
-});
+});*/
