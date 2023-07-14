@@ -10,7 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     height: 100vh;
-    background-color: var(--diabled);
+    background-image: url("/assets/wall.jpg");
 }
 
 *:first-letter {
