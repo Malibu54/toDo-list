@@ -1,16 +1,87 @@
-# Control trabajos prácticos (toDo list)
+# 📘 Control de Trabajos Prácticos (ToDo List)
 
+Una aplicación web sencilla y funcional para llevar el control de trabajos prácticos (TPs) realizados y pendientes. Permite agregar, marcar como completadas y ordenar tareas, todo con una interfaz amigable y notificaciones visuales.
 
-El proyecto trata sobre un controlador de trabajos prácticos, la idea al final del proyecto es llevar un control de las tareas realizadas y pendientes.
-Adicionalmente, al ingresar a la aplicacion nos pediran nuestro usuario de github para generar el avatar del mismo, en caso de que salga error en la petición, esto es un indicio de que el usuario no existe y por ende esta disponible para registrar.
+---
 
-Debajo, podremos ver un botton que nos llevará a una pequeña aplicacion de control de los trabajos practicos del alumno al día de la fecha.
+## 🚀 Características principales
 
-Cómo funciona?
+* 📝 Agregar nuevos trabajos prácticos de forma sencilla.
+* ✅ Marcar tareas como completadas con un solo clic.
+* 📥 Ordenar la lista para priorizar tareas pendientes.
+* 💾 Guardado automático en `localStorage` para mantener las tareas entre sesiones.
+* 🔔 Notificaciones visuales con SweetAlert2.
+* 🗓 Muestra la fecha actual con formato amigable.
 
-En el input 'Nuevo TP" escribimos el nombre del trabajo práctico y podemos agregarlo a la lista presionando enter o haciendo click en el boton "+" y se ira formando una lista, esta acción es confirmada por un modal donde nos confirma que se ha agregado un nuevo tp a nuestro toDoList. Adicionalmente, veremos el boton ordenar; este botón cumple la función de ordenar las tareas pendientes el listado en la parte superior dejando las finalizadas en la parte inferior. 
+---
 
-Cómo marco un tp como finalizado?
+## 🧑‍💻 Cómo funciona
 
--Haciendo click sobre la tarea, nos mostrará un modal con el texto "Que bueno que terminaste :3", hacemos click en ok y la tarea pasará a tener el texto tachado, lo cual indica que la marcamos como finalizada.
+### ➕ Agregar una tarea
+
+1. Escribe el nombre del trabajo práctico en el campo "Nueva tarea".
+2. Presiona `Enter` o haz clic en el botón ➕ para agregarlo.
+3. Aparecerá un mensaje confirmando que la tarea fue agregada.
+
+### ✅ Finalizar una tarea
+
+* Haz clic sobre una tarea para marcarla como completada.
+* Se actualizará su estilo (tachado) para indicar su estado.
+
+### 🔃 Ordenar tareas
+
+* Presiona el botón **Ordenar** para mover las tareas pendientes arriba y las completadas abajo.
+
+---
+
+## 🖥 Captura de pantalla
+
+* Inicio
+> <p align="center">
+  <img src="/assets/Inicio.png" />
+</p>
+
+* Con tareas por hacer, en curso yo finalizadas
+> <p align="center">
+  <img src="/assets/Con-tareas.png" />
+</p>
+
+---
+
+## 💾 Persistencia de datos
+
+Todos los TPs que agregues se guardan en el navegador mediante `localStorage`. Esto significa que aunque cierres o recargues la página, tus tareas seguirán ahí.
+
+---
+
+## 📦 Tecnologías utilizadas
+
+* HTML5 + CSS3 (responsivo y moderno)
+* JavaScript Vanilla
+* SweetAlert2 para notificaciones
+* `localStorage` para persistencia
+
+---
+
+## 📚 Futuras mejoras - In progress
+ 
+* Editar tareas existentes.
+* Filtro por estado (pendiente, completado).
+* Modo oscuro.
+* Integración con usuario de GitHub para avatar (pendiente o desactivado actualmente).
+* Eliminar tareas individuales o todas.
+
+---
+
+## 🧪 Cómo usar este proyecto
+
+1. Clona o descarga este repositorio.
+2. Abre `index.html` en tu navegador.
+3. ¡Empieza a gestionar tus TPs!
+
+---
+
+## 💡 Autor
+
+Creado con ❤️ por [Ori](https://github.com/malibu54)
 
