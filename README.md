@@ -83,5 +83,5 @@ Todos los TPs que agregues se guardan en el navegador mediante `localStorage`. E
 
 ## 💡 Autor
 
-Creado con ❤️ por [Ori](https://github.com/malibu54)
+Creado con ❤️ por [Lady Vader](https://github.com/malibu54)
 
